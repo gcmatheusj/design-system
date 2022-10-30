@@ -9,7 +9,7 @@ export default {
     Exercitationem sapiente eum iusto similique? Ab repellendus aliquid 
     voluptates deleniti deserunt ex, odit voluptatum ad corrupti 
     praesentium voluptatem excepturi earum modi laborum.`,
-  }
+  },
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
