@@ -7,6 +7,13 @@ export default {
   args: {
     src: 'https://github.com/gcmatheusj.png',
     alt: 'Matheus Castro'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>
 
