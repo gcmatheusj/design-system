@@ -15,5 +15,13 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  //Config sub directory for gh pages
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system/'
+    }
+
+    return config
   }
 }
