@@ -14,10 +14,10 @@ export default {
   argTypes: {
     children: {
       control: {
-        type: null
-      }
-    }
-  }
+        type: null,
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}

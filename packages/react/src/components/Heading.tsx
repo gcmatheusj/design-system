@@ -1,5 +1,5 @@
-import { ComponentProps, ElementType } from "react";
-import { styled } from "../styles";
+import { ComponentProps, ElementType } from 'react'
+import { styled } from '../styles'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',
@@ -21,8 +21,8 @@ export const Heading = styled('h2', {
   },
 
   defaultVariants: {
-    size: 'md'
-  }
+    size: 'md',
+  },
 })
 
 export type HeadingProps = ComponentProps<typeof Heading> & {

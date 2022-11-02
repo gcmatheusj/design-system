@@ -22,11 +22,11 @@ export const Button = styled('button', {
 
   svg: {
     width: '$4',
-    height: '$4'
+    height: '$4',
   },
 
   '&:disabled': {
-    cursor: 'not-allowed'
+    cursor: 'not-allowed',
   },
 
   variants: {
@@ -67,7 +67,7 @@ export const Button = styled('button', {
         '&:disabled': {
           color: '$gray600',
         },
-      }
+      },
     },
 
     size: {
@@ -76,14 +76,14 @@ export const Button = styled('button', {
       },
       md: {
         height: 46,
-      }
-    }
+      },
+    },
   },
 
   defaultVariants: {
     variant: 'primary',
-    size: 'md'
-  }
+    size: 'md',
+  },
 })
 
 export type ButtonProps = ComponentProps<typeof Button> & {
